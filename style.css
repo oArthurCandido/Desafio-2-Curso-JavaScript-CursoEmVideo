@@ -61,11 +61,11 @@ footer {
 }
 
 #image{
-  width: 20rem;
-  height: 20rem;
+  max-width: 20rem;
+  max-height: 20rem;
   object-fit: cover;
   clip-path: circle();
-  margin: 3rem;
+  margin: auto;
   display: block;
 }
 
